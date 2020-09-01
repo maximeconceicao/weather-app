@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/weather-icons.min.css">
+    </head>
+    <body>
+
+        <h2 class="error">Oooops, you must activate geolocation to use this application :/</h2>
+        <div class="weather-card">
+            <section class="weather-header">
+                <span>°C</span>
+                <i class="wi wi-moon-full"></i>
+            </section>
+            <section class="temperature-section">
+                <h2 class="temperature">0°</h2>
+                <span></span>
+            </section>
+            <section class="weather-info">
+                <div class="humidity-section">
+                    <i class="wi wi-humidity"></i>
+                    <span class="humidity-percentage">0%</span>
+                </div>
+                <div class="sunrise-section">
+                    <i class="wi wi-sunrise"></i>
+                    <span class="sunrise-hour">00h00</span>
+                </div>
+                <div class="sunset-section">
+                    <i class="wi wi-sunset" width=10px></i>
+                    <span class="sunset-hour">00h00</span>
+                </div>
+            </section>
+            <section class="forecast-section">
+                <div class="daily-forecast">
+                    <h3>TUE</h3>
+                    <i class="wi wi-cloud"></i>
+                    <span class="temp-max">0°</span>
+                    <span class="temp-min">0°</span>
+                </div>
+                <div class="vl"></div>
+                <div class="daily-forecast">
+                    <h3>WED</h3>
+                    <i class="wi wi-cloud"></i>
+                    <span class="temp-max">0°</span>
+                    <span class="temp-min">0°</span>
+                </div>
+                <div class="vl"></div>
+                <div class="daily-forecast">
+                    <h3>THU</h3>
+                    <i class="wi wi-cloud"></i>
+                    <span class="temp-max">0°</span>
+                    <span class="temp-min">0°</span>
+                </div>
+                <div class="vl"></div>
+                <div class="daily-forecast">
+                    <h3>FRI</h3>
+                    <i class="wi wi-cloud"></i>
+                    <span class="temp-max">0°</span>
+                    <span class="temp-min">0°</span>
+                </div>
+            </section>
+            <h2 class="location-timezone">Timezone</h2>
+
+        </div>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
